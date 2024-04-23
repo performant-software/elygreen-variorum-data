@@ -1,0 +1,468 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:id="header">
+		<fileDesc>
+			<titleStmt>
+				<title>Transcription of Autobiographical Manuscript by Ely Green</title>
+				<author>Ely Green</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<idno type="local"/>
+			</publicationStmt>
+			<sourceDesc>
+				<p/>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile sameAs="https://native-bound-unbound-staging.herokuapp.com/public/838ed890-e392-013c-78b3-566205c6851a/manifest?visit_id=4.802655846997559" xml:id="folios">
+		<surface xml:id="f000" ulx="0" uly="0" lrx="5766" lry="7188" sameAs="https://iiif-cloud-staging.herokuapp.com/public/resources/6d705e36-e99c-415a-9562-3d408d146f80/page/p1">
+			<label>ElyGreenManuscript_0001</label>
+			<graphic mimeType="application/json" url="https://iiif-staging.archivengine.com/iiif/3/qwmzgrkpw3mltu2n0d9xyio0d323;1"/>
+		</surface>
+		<surface xml:id="f001" ulx="0" uly="0" lrx="5742" lry="7211" sameAs="https://iiif-cloud-staging.herokuapp.com/public/resources/587484bf-a8e4-43db-9273-e27df0794f8f/page/p2">
+			<label>ElyGreenManuscript_0002</label>
+			<graphic mimeType="application/json" url="https://iiif-staging.archivengine.com/iiif/3/el93u5iy1suhb366rutgh3rt5riy;1"/>
+		</surface>
+		<surface xml:id="f002" ulx="0" uly="0" lrx="5634" lry="7195" sameAs="https://iiif-cloud-staging.herokuapp.com/public/resources/b2551d29-9d98-4678-b4e0-dbc938bcc133/page/p3">
+			<label>ElyGreenManuscript_0003</label>
+			<graphic mimeType="application/json" url="https://iiif-staging.archivengine.com/iiif/3/v78rph40nkfgkphm7dbsruklr9o1;1"/>
+		</surface>
+		<surface xml:id="f003" ulx="0" uly="0" lrx="5634" lry="7195" sameAs="https://iiif-cloud-staging.herokuapp.com/public/resources/d5729d10-6e7c-45dc-a3b4-ce1e08a49ffc/page/p4">
+			<label>ElyGreenManuscript_0004</label>
+			<graphic mimeType="application/json" url="https://iiif-staging.archivengine.com/iiif/3/v6hqgow8abijf738oy404bfgm4hv;1"/>
+		</surface>
+		<surface xml:id="f004" ulx="0" uly="0" lrx="5634" lry="7195" sameAs="https://iiif-cloud-staging.herokuapp.com/public/resources/dc1407db-3982-4965-b148-f9452e5cfde6/page/p5">
+			<label>ElyGreenManuscript_0005</label>
+			<graphic mimeType="application/json" url="https://iiif-staging.archivengine.com/iiif/3/dx2n15zl1hqojkbncxtqos0msexe;1"/>
+		</surface>
+		<surface xml:id="f005" ulx="0" uly="0" lrx="5630" lry="7201" sameAs="https://iiif-cloud-staging.herokuapp.com/public/resources/48362de3-1f8a-4630-9a02-754cc2b5ba44/page/p6">
+			<label>ElyGreenManuscript_0006</label>
+			<graphic mimeType="application/json" url="https://iiif-staging.archivengine.com/iiif/3/rwp70yjql3cnj3f7r5b2x6ccvt8b;1"/>
+		</surface>
+		<surface xml:id="f006" ulx="0" uly="0" lrx="5746" lry="7209" sameAs="https://iiif-cloud-staging.herokuapp.com/public/resources/b8983002-89cf-4963-bba7-60a3509ff4d8/page/p7">
+			<label>ElyGreenManuscript_0007</label>
+			<graphic mimeType="application/json" url="https://iiif-staging.archivengine.com/iiif/3/pr83y7e0rvqgg2fzing80i6gmcm1;1"/>
+		</surface>
+		<surface xml:id="f007" ulx="0" uly="0" lrx="5746" lry="7209" sameAs="https://iiif-cloud-staging.herokuapp.com/public/resources/03919545-a3fa-42ed-b724-70dc6237f6c2/page/p8">
+			<label>ElyGreenManuscript_0008</label>
+			<graphic mimeType="application/json" url="https://iiif-staging.archivengine.com/iiif/3/4oayxvki24e6eja72oxxinig4664;1"/>
+		</surface>
+		<surface xml:id="f008" ulx="0" uly="0" lrx="5746" lry="7209" sameAs="https://iiif-cloud-staging.herokuapp.com/public/resources/01960290-2e88-4e87-aa33-8c3a158f89b1/page/p9">
+			<label>ElyGreenManuscript_0009</label>
+			<graphic mimeType="application/json" url="https://iiif-staging.archivengine.com/iiif/3/wn0qzcd3bgsyal2a103wd7a68baw;1"/>
+		</surface>
+		<surface xml:id="f009" ulx="0" uly="0" lrx="5746" lry="7209" sameAs="https://iiif-cloud-staging.herokuapp.com/public/resources/8d7ff4de-13aa-4044-b4b7-6c1dca6216a2/page/p10">
+			<label>ElyGreenManuscript_0010</label>
+			<graphic mimeType="application/json" url="https://iiif-staging.archivengine.com/iiif/3/5lrqgl73xa7i68m2fvicqwmcbpf2;1"/>
+		</surface>
+	</facsimile>
+	<sourceDoc xml:id="transcription">
+		<surface facs="#f001">
+			<line>I was born in a Small town in Tenn the name Sewanee:</line>
+			<line>So called. The University of the South. It was was 1893.</line>
+			<line>My father was a white man. My mother was so called</line>
+			<line>a negress. So I was looked on as a half white bastard</line>
+			<line>and so called that by almost every one that knew me:</line>
+			<line>.In. this town many of the better class of white people,</line>
+			<line>often taken Negro boys-girl into their homes to train</line>
+			<line>them to be effecient help. This is how my mother</line>
+			<line>became a victim of this misfortune by producing me</line>
+			<line>when she was seventeen. She descovered she was pregnet</line>
+			<line>Her mistress sent her away. For me to be born.</line>
+			<line>After this event. My mother was taken in by another family.</line>
+			<line>by the name of Dr. Richerson. Who lived. next estate</line>
+			<line>to my fathers people: I have never known. Jest why</line>
+			<line>this kind couple should have so thoutful to mother.</line>
+			<line>They treated her as if she was one of the family. When I was</line>
+			<line>two years old my mother married. Then she brought</line>
+			<line>me to live on the estate with her. and husband</line>
+			<line>I was about three years old before I can remember</line>
+			<line>things that went on about me: My step father</line>
+			<line>was a fine man. He was so good to me although</line>
+			<line>I became to know that he was not my father at</line>
+			<line>four years old. Chrismas 1897. Usally my mother</line>
+			<line>taken me up to mother Richeson to work every day</line>
+			<line>their I would Play all over the house.. Mother Richeson</line>
+			<line>was very fond of me. She done lots of hand work</line>
+			<line>When I would do thinks wrong. She would. say</line>
+			<line>I drop a stitch find it there I would crawl over the</line>
+			<line>floor. hunting for the stitch. While both mothers</line>
+			<line>would laugh; So this Xmas there was to be company</line>
+			<line>for dinner. So my mother thought I would be in</line>
+			<line>the way of the guest. So She explained this to me,</line>
+			<line>Santa Claus had brought me some fire works</line>
+			<line>and toys I was most happy. She ask me to stay in</line>
+			<line>the servent quarters: until after dinner. And dont</line>
+			<line>touch the fire works: She dressed me in a little</line>
+			<line>plaid dress. And told me to stay in the house it was</line>
+			<line>bitter cold out side snow on the Ground. The drum</line>
+			<line>stove was red hot. When she left for work.</line>
+		</surface>
+		<surface facs="#f002">
+			<line>She came back ever hour to see how I was: The stove.</line>
+			<line>was red from heat: So holding a roman candle in my hand</line>
+			<line>playing with it I let it touch the stove. And it lighted</line>
+			<line>and started to Sparkle. I tried to put it out it set my</line>
+			<line>dress afire. I ran to the door and threw the candle out I was</line>
+			<line>on fire. not knowing what to. I leapt in the bed and covered it.</line>
+			<line>This put the fire out: Later I got up and changed .dresses and hid</line>
+			<line>my burned dress in my box where I kept my clothes: Soon my</line>
+			<line>mother came with my dinner. like most all the cooks down</line>
+			<line>South feed their children from their jobs this is called toten.</line>
+			<line>She had some toys and lot of nickels that Mother Richerson and</line>
+			<line>the guest had sent me. while she was placing my dinner on</line>
+			<line>my littel table she smelled the burnt cloth. . Then she ask</line>
+			<line>me what happen. She wanted to know if I had shot any of</line>
+			<line>my fire works: I told her no. soon she found I had lied:</line>
+			<line>This was the first time I had ever remembered of eve being</line>
+			<line>whipt: by her: So when she stopt whipping me I ran</line>
+			<line>out in the snow screaming so loud that my mother had to</line>
+			<line>try. run me down to get me back in the house. before she could</line>
+			<line>reach me I had crawled through the bars of the big gate to the</line>
+			<line>adjoyning estate: That belong to my father people. There I</line>
+			<line>stood screaming. My mother stood coaxing me to come</line>
+			<line>back to her: She didn't wish to come through gate:</line>
+			<line>Some one spoke from the back of me. Asking my mother</line>
+			<line>what was she whipping me for. Mother replied he lied</line>
+			<line>to me and I spanked him and he ran away from me</line>
+			<line>over there. So this white lady taken me by my hand</line>
+			<line>house and come back to the gate she had something</line>
+			<line>for me at the house. So mother taken me in and</line>
+			<line>told me to stay untill she come back. She went out:</line>
+			<line>Soon she was back with lots oranges and candy and toys</line>
+			<line>She told me these were sent to you. I ask her who was the</line>
+			<line>lady. She looked at me for a moment. And said you might</line>
+			<line>as well know now. That was your grandmother</line>
+			<line>of your white family. She said for you to be a good</line>
+			<line>boy and dont tell storys to any one: This made me</line>
+			<line>very happy to think some else loved me, to. No farther</line>
+			<line>did I think of it. Later my step farther came he helpt</line>
+			<line>me shoot my fire works. I was so fond of him.</line>
+		</surface>
+		<surface facs="#f003">
+			<line>I did'nt have any children to play with. I had my mother and</line>
+			<line>father. They were like two pals. we didnt have any company.</line>
+			<line>except. My fathers friends that worked on the construction</line>
+			<line>When it rained. The men often came to the house to play</line>
+			<line>checkers. Which my step father was a good player.</line>
+			<line>no one had anything much to say to me: I was always</line>
+			<line>busy trying to build something are make somthing.</line>
+			<line>my mother when She was off the job she started me on my</line>
+			<line>alphebet when I was four years old. I had to count</line>
+			<line>every thing that came in the house. From my fathers</line>
+			<line>pay enelope. To the matches in boxs. Some times I</line>
+			<line>would complain. Then she would tell me that she wanted</line>
+			<line>me to be the best edjacated man in the world. When I would</line>
+			<line>go to mother Richeson house. I had to do the same thing: mother</line>
+			<line>Richeson when I was four and a half. Bought me a slate and started me</line>
+			<line>She called Father Gerry. To come and babtize me. The next</line>
+			<line>day Father came: With him came Bishop Gailor of Tenn.</line>
+			<line>and Father Clabourne. When they taken me in the parlor</line>
+			<line>I became frighten and tryed to run out. My mother caught</line>
+			<line>me and held on to me. They had on their corters and</line>
+			<line>gouns which I had never seen them dressed like this.</line>
+			<line>Mother Richinson and Bishop Gaitor kneelt by and told</line>
+			<line>me. I was a child of God and I must be babtized and</line>
+			<line>Bishop was my Godfarther- Mother Richeson was</line>
+			<line>my Godmother. and father Gerry and father Eastern</line>
+			<line>would be my consulman: When this was over I was</line>
+			<line>most happy to know that I had so many friends</line>
+			<line>I began to love every body: Hear I wish to explain</line>
+			<line>somthing about this town. As why the white people</line>
+			<line>were so democratic. Most of the people at this time</line>
+			<line>that lived here. Were English decent. There many of them</line>
+			<line>were nobility respect of England: The residental area was</line>
+			<line>fenced in no poor white people lived in side of this area:</line>
+			<line>No body lived there except the aristicrats and their servants.</line>
+			<line>all work s like house maids Butlers coachmans were all.</line>
+			<line>colored and most every one was call colored you</line>
+			<line>rarely ever heard the word ever used negro are nigger.</line>
+			<line>It seemed that every body was happy just to be there</line>
+		</surface>
+		<surface facs="#f004">
+			<line>When I was five years old my little brother was born.</line>
+			<line>In which. I became jelouis of imeditately. It seemed every</line>
+			<line>thing changed. Every way. People came to our house to</line>
+			<line>to see my little brother: Every one colored was so fond of.</line>
+			<line>him. Until this happend: There were so few women</line>
+			<line>ever come to see my mother: There were but few ever</line>
+			<line>had anything. To say to me. They would just look at</line>
+			<line>me as if I could not have been. My white family was</line>
+			<line>named Wicks. Some of the women would say to</line>
+			<line>the other he sure is a Wicks. He is just like them:</line>
+			<line>by the time I was Six Year old: I had become to under</line>
+			<line>stand that I just was nt like the rest of my family</line>
+			<line>I know my mother had become to notice my feeling. Though</line>
+			<line>she did not say anything to me concerning this: They gave</line>
+			<line>me more priviledges. I was allowed to go out in the</line>
+			<line>park and play withe the white children. when their</line>
+			<line>nurses brought then in the Park to play. many</line>
+			<line>times the mother s would come with their children. They</line>
+			<line>were all so kind to me you see the town was so</line>
+			<line>no houses had any numbers. every body knew</line>
+			<line>every body Black ore white: The white people had</line>
+			<line>every thing under such control. They knew every thing</line>
+			<line>so that was why that it seemed that every one knew</line>
+			<line>me and was so kind to me: So often they would</line>
+			<line>bring ice crem cookies. I would be sirved with their</line>
+			<line>children: This went on for about six months. Then my</line>
+			<line>mother told me that school was opening out of the</line>
+			<line>corporation and I should go. This was where most</line>
+			<line>of the colored people and the poor class of white</line>
+			<line>lived. So the first day she taken me to school so</line>
+			<line>I would know the way. I met the teecher. and I was</line>
+			<line>enrolled: For two weeks, I went to school. I did not</line>
+			<line>like school. Because the children didnt like me</line>
+			<line>I was the only real light complected one in</line>
+			<line>the school. The rumer soon was out that I was a</line>
+			<line>Bastard and that my white uncle was a knit witt</line>
+			<line>whome was called Clabber: Soon all the children</line>
+			<line>joked fun at me of this name: which vexed me very</line>
+		</surface>
+		<surface facs="#f005">
+			<line>much: My teacher was very kind to untill I started</line>
+			<line>to fight the kids when the the would tease me: I was</line>
+			<line>graded: placed in the second Reader: Just as I was</line>
+			<line>begenning to be come adjusted my mother taken</line>
+			<line>sick. She wanted me to stay with her. She had been</line>
+			<line>ailing every sice my brother was born. She never</line>
+			<line>went back to work. So I was glad not to go to school.</line>
+			<line>My mother was aflected with consumption: she know</line>
+			<line>She would never be well. This four month before</line>
+			<line>She got to weak she kept me with her almost every</line>
+			<line>minute: She would take my brother and and go up on</line>
+			<line>the main streets when the military student would</line>
+			<line>march. by. I thought that was the greatest somthing</line>
+			<line>that could be: To be a cadet. She talked so much about</line>
+			<line>this training. Sundy morning the cadets would march.</line>
+			<line>by music. by their band. like the West Point.</line>
+			<line>Cadets. So on Sundy mornings I would go up on</line>
+			<line>the street where they marched by: I was just two</line>
+			<line>blocks from St Agustus Chapel. Which they had to</line>
+			<line>march from where I would meet them. So I would</line>
+			<line>try to keep up with them untill they got to the chapel.</line>
+			<line>formation. Passing reveiw and salute their superiors.</line>
+			<line>I would stand some where and solute to.  Then march.</line>
+			<line>in the chapel. Every body always waited for the arival</line>
+			<line>of the cadets before going in the chapel. When they</line>
+			<line>marched in. I wouldnt go in the I would to the back</line>
+			<line>of the chapel to watch the orogan pumper pump the</line>
+			<line>pipe organ. I would wath him for a while. Then</line>
+			<line>I would go to my mother. After a few Sundays I</line>
+			<line>was spoken to by many white people; All white people</line>
+			<line>down South seems to love colored children. So one</line>
+			<line>morning their was a package left on our door step</line>
+			<line>I brought it in and gave it to my mother She open it</line>
+			<line>their was a little coat and cap somthing like the</line>
+			<line>cadets: So Sundy mornings I was always waiting</line>
+			<line>for cadets to pass. Seem every body would laugh.</line>
+			<line>when I pass by they would salute me when I salute</line>
+			<line>them. I do beleaive that was the happiest days of all</line>
+			<line>my life:</line>
+		</surface>
+		<surface facs="#f006">
+			<line>On Sundays my step father would be home with my</line>
+			<line>mother. That was why I could go away for a while:</line>
+			<line>I would come in and tell her how wonderful things</line>
+			<line>were. Very soon my mother became so sick that I</line>
+			<line>could not wait on her: Father had to get some.</line>
+			<line>one a woman to care for. I had my little brother</line>
+			<line>then to look after: Father built another room on</line>
+			<line>to the one we had been living in where we cooked</line>
+			<line>slept and bathed in: Father Gerry come Pastor of</line>
+			<line>St Agustus came every morning. He and Dr Hall.</line>
+			<line>Father would pray: And before he would he would</line>
+			<line>leave. he would talk to me telling to stay close to</line>
+			<line>her. many of the white family would drive up in</line>
+			<line>carrages bringing somthing for her. They were</line>
+			<line>so genorous in every way. So one morning</line>
+			<line>Farther ask me would I like to go home with him.</line>
+			<line>I went he only lived a block from us. This was</line>
+			<line>the first time I had gone to any one s home. We</line>
+			<line>went in. He had three children Elexandra. Annie</line>
+			<line>Edward. his wife whom we called mother. She often</line>
+			<line>taught neighborn children like a kindergarten:</line>
+			<line>So almost every day except Sunday. I would go.</line>
+			<line>with father home to play with the children at</line>
+			<line>recess. Sometimes stayed all night because I was</line>
+			<line>in the way. at home: and Mother Gerry was just</line>
+			<line>about the sweetest lady I ever knew: She was so.</line>
+			<line>kind. I did not attend Class althoug She explain</line>
+			<line>any thing I ask her and treated me like other</line>
+			<line>children. This al so made me very happey.</line>
+			<line>Just here is the first time I had to learn something</line>
+			<line>about religions: I hadnt ever seen may mother</line>
+			<line>go to church nor my step farther. So one morning</line>
+			<line>before Farther Gerry came Mother ask me not to go</line>
+			<line>over to the Gerry home: That Elder Trouble</line>
+			<line>was coming. And I might be need. So when</line>
+			<line>He arrived with him was four women: They</line>
+			<line>came. I took my little out side to play. They sang</line>
+			<line>and prayed for many hours.</line>
+		</surface>
+		<surface facs="#f007">
+			<line>All at once there was a scream. Which I knew it</line>
+			<line>mothers voice. I rushed in the house. There my</line>
+			<line>mother was sitting up in bed. Clapping hands saying</line>
+			<line>Glory Hallalula. I been born again I rushed to her</line>
+			<line>as she said my son I am now happy. I didnt know</line>
+			<line>what it all ment. As I looked at all six people with tears</line>
+			<line>streaming down their faces. Mother held out her</line>
+			<line>hands saying bring my two sons to me. I turned</line>
+			<line>around to get my brother who was crawling in the</line>
+			<line>door. I carried him to the bed one of the sisters put him</line>
+			<line>in the bed and I climbed in. Mother as feble as she was</line>
+			<line>pulled us both against her breast and folded</line>
+			<line>back on her pillar say God bless them I can</line>
+			<line>now die happy. As she ran her feeble fingers through</line>
+			<line>the curls of my hair saying over and over. He</line>
+			<line>leadeth me through green pastures and lie me</line>
+			<line>down by still waters I will not fear to enter</line>
+			<line>the vally of death. I will not be alone. Soon she</line>
+			<line>was in a coma: I was going over to Father Gerry.</line>
+			<line>I was told that Mother had confessed religion.</line>
+			<line>When met Father Gerry I told him of this.</line>
+			<line>Father took me by hand and said lets go to her</line>
+			<line>at once. When we arrived every one of the colored</line>
+			<line>people had gone. No one was there except Mother and her</line>
+			<line>nurse. Father Gerry walked to her bedside. With</line>
+			<line>his left hand he stroke her brow softly. The word s</line>
+			<line>he spoke I cant remember. then he knelt by the bed</line>
+			<line>with me and the lady nurse. There he prayed and talked</line>
+			<line>with her. Mother spoke then, asking him what should</line>
+			<line>be done with Ely. I know I am going die. Eddie he has a father</line>
+			<line>to look after him. Ely as he is you know hasnt</line>
+			<line>any one. I now can die happy when I know that he will</line>
+			<line>be cared for. Farther then spoke saying Lena you know</line>
+			<line>that Bishop Gaylor is Elys Godfather and I am his</line>
+			<line>conselor. and Farther Eastern. He will be taken care of.</line>
+			<line>Who do you think he could live with Mother told</line>
+			<line>him to send for Matty Davis. Whom she had</line>
+			<line>lived with when she was a girl. Father waited</line>
+			<line>untill I went for her and came back.</line>
+		</surface>
+		<surface facs="#f008">
+			<line>There was agreed. That Matty Davis would raise me.</line>
+			<line>My mother was very happy. Father Gerray told Mother</line>
+			<line>Matty that she would have help if she needed it.</line>
+			<line>This was the begining of a new life for me: I left with</line>
+			<line>her. That was the last time I saw my mother alive.</line>
+			<line>She died the next day. My brother and his father moved</line>
+			<line>out of the corporation. To where most of the colored people</line>
+			<line>lived: soon he married again. My foster mother cooked</line>
+			<line>for Dr. Barton. They let her keep me on the estate. They</line>
+			<line>were very kind to me. I was then allowed to go almost</line>
+			<line>anywhere I wanted to go. I would go to Father Gerrays</line>
+			<line>house every day to play with the children. Mother Mat</line>
+			<line>had three children one girl two boys. Her childre were</line>
+			<line>grown: She owned a house where they lived. Neither</line>
+			<line>of them were married. I soon became to love her.</line>
+			<line>and daughters as if they were my own. When I was</line>
+			<line>eight years old. Mama Matty decided. I should go</line>
+			<line>to school. So we stop staying at night in the corporation</line>
+			<line>she would go home: School did not open as was expected.</line>
+			<line>So I would go to and frow. With her to work and</line>
+			<line>to play with the white children. I often would go to</line>
+			<line>building where my step father worked. To see him</line>
+			<line>I loved him. He loved me to I knew. He was so kind</line>
+			<line>everybody that knew him loved him white or black. He</line>
+			<line>was so strong I just loved to be close to him. He was</line>
+			<line>said to be the strongest man in the county. It was</line>
+			<line>often he would display his strenth by lifting. To</line>
+			<line>amuse the students who liked to watch him. His job</line>
+			<line>mostly was to wind the derick for the stone setters.</line>
+			<line>Just as I was turning nine. This was where things</line>
+			<line>began to change for me and happiness faded:</line>
+			<line>All this time my frienships had broadend. To where</line>
+			<line>almost every notable in town knew me many of</line>
+			<line>them would stop on the street and would talk to me.</line>
+			<line>I was taught by Mother to be curtious to every one</line>
+			<line>People liked me for this often told me that. I hadnt</line>
+			<line>ever thought any thing about race destinction.</line>
+			<line>I knew very little about colored children. The word Negro</line>
+			<line>was rarely ever used, or I just didnt pay any attention</line>
+		</surface>
+		<surface facs="#f009">
+			<line>I had the dream that some day I would be like the</line>
+			<line>students. I would be a cadet. All the white kids talked of</line>
+			<line>this we drilled and played to gather happily I didnt</line>
+			<line>only go to Father Gerrys house. I would go to any</line>
+			<line>ones house that had children. Have lunch. All these</line>
+			<line>mothers were kind to me. One morning I went to</line>
+			<line>Mother Gerrys to play. It was cold outside. There</line>
+			<line>wasn’t any children except her own around. Mother</line>
+			<line>said to us: The leaves has blown over the yard.</line>
+			<line>If you boys will rake them up. I will give fifteen</line>
+			<line>cents each. The job was soon done. When she paid us</line>
+			<line>out to the drug store we went. To buy an egg flip which was</line>
+			<line>a drink like a malted milk. Alexander, Edward and I.</line>
+			<line>We went to the dispencer. And ordered three drinks.</line>
+			<line>I had been here before many times with these children.</line>
+			<line>And got drinks even men and women had given</line>
+			<line>me drinks because I had no money. Dr. Conger the</line>
+			<line>propiator never said anything. This day there was</line>
+			<line>a new disspencer that I hadnt seen before. So he made</line>
+			<line>two drinks. Handed one to Alexander another one to</line>
+			<line>Edward. Didnt make any for me. I ask where was</line>
+			<line>my drink. He said You don’t get any: Alexander</line>
+			<line>spoke up why don’t Ely get a drink he has money to pay</line>
+			<line>for it. The dispencer said I don’t make drinks for no</line>
+			<line>nigger. He is a nigger. Alexander said he is one of us.</line>
+			<line>The fellow said I wouldnt make a drink for a nigger</line>
+			<line>if I never worked. The boys both tossed their glasses</line>
+			<line>over the counter and out of the store we went back</line>
+			<line>home. This was the first time I ever felt hurt except</line>
+			<line>when my mother died: We were just a block from</line>
+			<line>the Gerry home. We didnt talk at all on the way</line>
+			<line>home. Alexander was two years older than I. and</line>
+			<line>was older than Edward. I am not sure that Alexander</line>
+			<line>did not have more understanding about this than</line>
+			<line>we did. When we entered the house Alexander</line>
+			<line>and Sumner went strait to their room. I walked to</line>
+			<line>the libary where Mother Gerry and Annie was</line>
+			<line>the libary where Mother Gerry and Annie was</line>
+			<line>at me and said did you boys have a nice drink.</line>
+		</surface>
+		<surface facs="#f010">
+			<line>I said no I didnt have a drink the clerk wouldn’t make</line>
+			<line>me a drink. He called me a niggir and said he did</line>
+			<line>not make drinks for niggirs: Mother stop looking</line>
+			<line>at me and looked toward the fire. I stood there for</line>
+			<line>a moment. Then I ask her Mother what is a nigger.</line>
+			<line>She did not answer. She walked tothe hall and</line>
+			<line>called the two boys to come to the libiary they came</line>
+			<line>she said I have some cookies and will make some</line>
+			<line>hot cholate. You dont have to go to the drug store.</line>
+			<line>No one said anything. She went to the kitchen. I</line>
+			<line>followed her. While she was heating the milk.</line>
+			<line>I could see that she was a bit purturbed. Then I ask</line>
+			<line>her would she please tell me what is a nigger.</line>
+			<line>Why should I be called a nigger. It must be very</line>
+			<line>bad to be a nigger. She stood with her back to</line>
+			<line>me fully a minute. Before she spoke. She turned</line>
+			<line>and faced me. She said Ely I think this is a job</line>
+			<line>for Father: you go to him. He can explain this</line>
+			<line>better than I can. He is over at St. Agustus. For three years</line>
+			<line>I had been coming to her for understanding. This was</line>
+			<line>the first time she refused to explain to me. I did not</line>
+			<line>wait for choclate. I went over to St. Agustus Father</line>
+			<line>Gerry was in his study. He was writing.He looked</line>
+			<line>up and said Ely my boy what brings you here. I said</line>
+			<line>Father there is something I want to ask you if you</line>
+			<line>have time. He said Have a seat there. Ill talk to you in a</line>
+			<line>minute: I waited soon he said I am preparing this for class</line>
+			<line>and lecture this afternoon. Now what is it you</line>
+			<line>want to know: Ely. I stood up. Then I said Father</line>
+			<line>I want to know what is a nigger. I was called that</line>
+			<line>by the clerk over at the drugstore. He would not take my</line>
+			<line>money. Mother Gerry said I should come to you for</line>
+			<line>explanation. He started to say something and stopted,</line>
+			<line>just for a moment. Then he said Ely. I am very busy. I have</line>
+			<line>this lecture to do so I will send you to Father Eastern</line>
+			<line>tell him. I sent you and he will explain to you</line>
+			<line>what you need to know. If you dont find him</line>
+			<line>at home come back to morrow and I will</line>
+			<line>talk to you. I thanked him and left.</line>
+		</surface>
+	</sourceDoc>
+</TEI>

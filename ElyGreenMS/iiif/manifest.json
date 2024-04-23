@@ -1,0 +1,781 @@
+{
+	"@context": [
+		"http://www.w3.org/ns/anno.jsonld",
+		"http://iiif.io/api/presentation/3/context.json"
+	],
+	"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/manifest.json",
+	"type": "Manifest",
+	"items": [
+		{
+			"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f000",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f000/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f000/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-staging.archivengine.com/iiif/3/qwmzgrkpw3mltu2n0d9xyio0d323;1",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 7188,
+								"width": 5766,
+								"service": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/qwmzgrkpw3mltu2n0d9xyio0d323;1",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/qwmzgrkpw3mltu2n0d9xyio0d323;1/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f000"
+						}
+					]
+				}
+			],
+			"height": 7188,
+			"width": 5766,
+			"label": {
+				"none": [
+					"ElyGreenManuscript_0001"
+				]
+			}
+		},
+		{
+			"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f001",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f001/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f001/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-staging.archivengine.com/iiif/3/el93u5iy1suhb366rutgh3rt5riy;1",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 7211,
+								"width": 5742,
+								"service": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/el93u5iy1suhb366rutgh3rt5riy;1",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/el93u5iy1suhb366rutgh3rt5riy;1/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f001"
+						}
+					]
+				}
+			],
+			"height": 7211,
+			"width": 5742,
+			"label": {
+				"none": [
+					"ElyGreenManuscript_0002"
+				]
+			},
+			"annotations": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f001/annotationPage/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f001/annotationPage/1/annotation/0",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/tei/transcription/f001.xml",
+								"format": "text/xml",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f001"
+						},
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f001/annotationPage/1/annotation/1",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/html/transcription/f001.html",
+								"format": "text/html",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f001"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f002",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f002/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f002/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-staging.archivengine.com/iiif/3/v78rph40nkfgkphm7dbsruklr9o1;1",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 7195,
+								"width": 5634,
+								"service": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/v78rph40nkfgkphm7dbsruklr9o1;1",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/v78rph40nkfgkphm7dbsruklr9o1;1/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f002"
+						}
+					]
+				}
+			],
+			"height": 7195,
+			"width": 5634,
+			"label": {
+				"none": [
+					"ElyGreenManuscript_0003"
+				]
+			},
+			"annotations": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f002/annotationPage/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f002/annotationPage/1/annotation/0",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/tei/transcription/f002.xml",
+								"format": "text/xml",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f002"
+						},
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f002/annotationPage/1/annotation/1",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/html/transcription/f002.html",
+								"format": "text/html",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f002"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f003",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f003/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f003/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-staging.archivengine.com/iiif/3/v6hqgow8abijf738oy404bfgm4hv;1",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 7195,
+								"width": 5634,
+								"service": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/v6hqgow8abijf738oy404bfgm4hv;1",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/v6hqgow8abijf738oy404bfgm4hv;1/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f003"
+						}
+					]
+				}
+			],
+			"height": 7195,
+			"width": 5634,
+			"label": {
+				"none": [
+					"ElyGreenManuscript_0004"
+				]
+			},
+			"annotations": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f003/annotationPage/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f003/annotationPage/1/annotation/0",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/tei/transcription/f003.xml",
+								"format": "text/xml",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f003"
+						},
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f003/annotationPage/1/annotation/1",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/html/transcription/f003.html",
+								"format": "text/html",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f003"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f004",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f004/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f004/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-staging.archivengine.com/iiif/3/dx2n15zl1hqojkbncxtqos0msexe;1",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 7195,
+								"width": 5634,
+								"service": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/dx2n15zl1hqojkbncxtqos0msexe;1",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/dx2n15zl1hqojkbncxtqos0msexe;1/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f004"
+						}
+					]
+				}
+			],
+			"height": 7195,
+			"width": 5634,
+			"label": {
+				"none": [
+					"ElyGreenManuscript_0005"
+				]
+			},
+			"annotations": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f004/annotationPage/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f004/annotationPage/1/annotation/0",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/tei/transcription/f004.xml",
+								"format": "text/xml",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f004"
+						},
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f004/annotationPage/1/annotation/1",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/html/transcription/f004.html",
+								"format": "text/html",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f004"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f005",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f005/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f005/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-staging.archivengine.com/iiif/3/rwp70yjql3cnj3f7r5b2x6ccvt8b;1",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 7201,
+								"width": 5630,
+								"service": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/rwp70yjql3cnj3f7r5b2x6ccvt8b;1",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/rwp70yjql3cnj3f7r5b2x6ccvt8b;1/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f005"
+						}
+					]
+				}
+			],
+			"height": 7201,
+			"width": 5630,
+			"label": {
+				"none": [
+					"ElyGreenManuscript_0006"
+				]
+			},
+			"annotations": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f005/annotationPage/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f005/annotationPage/1/annotation/0",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/tei/transcription/f005.xml",
+								"format": "text/xml",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f005"
+						},
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f005/annotationPage/1/annotation/1",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/html/transcription/f005.html",
+								"format": "text/html",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f005"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f006",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f006/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f006/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-staging.archivengine.com/iiif/3/pr83y7e0rvqgg2fzing80i6gmcm1;1",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 7209,
+								"width": 5746,
+								"service": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/pr83y7e0rvqgg2fzing80i6gmcm1;1",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/pr83y7e0rvqgg2fzing80i6gmcm1;1/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f006"
+						}
+					]
+				}
+			],
+			"height": 7209,
+			"width": 5746,
+			"label": {
+				"none": [
+					"ElyGreenManuscript_0007"
+				]
+			},
+			"annotations": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f006/annotationPage/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f006/annotationPage/1/annotation/0",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/tei/transcription/f006.xml",
+								"format": "text/xml",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f006"
+						},
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f006/annotationPage/1/annotation/1",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/html/transcription/f006.html",
+								"format": "text/html",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f006"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f007",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f007/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f007/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-staging.archivengine.com/iiif/3/4oayxvki24e6eja72oxxinig4664;1",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 7209,
+								"width": 5746,
+								"service": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/4oayxvki24e6eja72oxxinig4664;1",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/4oayxvki24e6eja72oxxinig4664;1/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f007"
+						}
+					]
+				}
+			],
+			"height": 7209,
+			"width": 5746,
+			"label": {
+				"none": [
+					"ElyGreenManuscript_0008"
+				]
+			},
+			"annotations": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f007/annotationPage/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f007/annotationPage/1/annotation/0",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/tei/transcription/f007.xml",
+								"format": "text/xml",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f007"
+						},
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f007/annotationPage/1/annotation/1",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/html/transcription/f007.html",
+								"format": "text/html",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f007"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f008",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f008/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f008/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-staging.archivengine.com/iiif/3/wn0qzcd3bgsyal2a103wd7a68baw;1",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 7209,
+								"width": 5746,
+								"service": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/wn0qzcd3bgsyal2a103wd7a68baw;1",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/wn0qzcd3bgsyal2a103wd7a68baw;1/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f008"
+						}
+					]
+				}
+			],
+			"height": 7209,
+			"width": 5746,
+			"label": {
+				"none": [
+					"ElyGreenManuscript_0009"
+				]
+			},
+			"annotations": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f008/annotationPage/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f008/annotationPage/1/annotation/0",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/tei/transcription/f008.xml",
+								"format": "text/xml",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f008"
+						},
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f008/annotationPage/1/annotation/1",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/html/transcription/f008.html",
+								"format": "text/html",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f008"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f009",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f009/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f009/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-staging.archivengine.com/iiif/3/5lrqgl73xa7i68m2fvicqwmcbpf2;1",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 7209,
+								"width": 5746,
+								"service": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/5lrqgl73xa7i68m2fvicqwmcbpf2;1",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-staging.archivengine.com/iiif/3/5lrqgl73xa7i68m2fvicqwmcbpf2;1/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f009"
+						}
+					]
+				}
+			],
+			"height": 7209,
+			"width": 5746,
+			"label": {
+				"none": [
+					"ElyGreenManuscript_0010"
+				]
+			},
+			"annotations": [
+				{
+					"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f009/annotationPage/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f009/annotationPage/1/annotation/0",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/tei/transcription/f009.xml",
+								"format": "text/xml",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f009"
+						},
+						{
+							"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f009/annotationPage/1/annotation/1",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/html/transcription/f009.html",
+								"format": "text/html",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/ElyGreenMS/iiif/canvas/f009"
+						}
+					]
+				}
+			]
+		}
+	],
+	"label": {
+		"en": [
+			"ElyGreenMS"
+		]
+	},
+	"seeAlso": [
+		{
+			"id": "https://cu-mkp.github.io/editioncrafter-data/fr640_3r-3v-example/glossary.json",
+			"type": "Dataset",
+			"label": "Glossary",
+			"format": "text/json"
+		}
+	]
+}
