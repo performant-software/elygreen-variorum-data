@@ -1,0 +1,221 @@
+  h1 {
+  text-align: center;
+  text-indent: 0;
+  }
+  h2 {
+  text-align: center;
+  text-indent: 0;
+  }
+  h3 {
+  padding-top: 15px;
+  text-align: center;
+  text-indent: 0;
+  }
+  h4 {
+  padding-top: 15px;
+  text-align: center;
+  text-indent: 0;
+  }
+  h5 {
+  text-align: center;
+  text-indent: 0;
+  }
+  li  {
+  padding-bottom: 10px;
+  }
+  hr {
+  height:1px;
+  width:50%;
+  background-color: #336633;
+  border-style: double;
+  padding: 1px 0;
+  }
+  div  {
+  page-break-inside: avoid;
+  }
+  .textgreen {
+   color:#f49e55;
+  }
+  .gendropcap {
+	float:left;
+	font-size:4em;
+	font-style:normal;
+	font-weight:bold;
+	line-height:1;
+	margin-bottom: 0em;
+	margin-right: .1em;
+	margin-top:-0.083em;
+    }
+   .img34 {
+   float:center;
+   width: 75%;
+   height: auto%;
+   }
+
+   .imgRight {
+   float: right;
+   padding: 5px;
+   width: 30%;
+   height: auto%;
+   display: block;
+   }
+   .imgLeft {
+   float: left;
+   padding: 5px;
+   width: 30%;
+   height: auto;
+   display: block;
+   }
+   .imgLeftHigh {
+   float: left;
+   padding: 5px;
+   width: auto;
+   height: 50%;
+   display: block;
+   }
+  .lefthead  {
+  padding-top: 16px;
+  text-align: left;
+  }
+  .BChead    {
+  text-align: center;
+  color: gray;
+  }
+  .backgray  {
+  padding: 6px;
+  background-color: #F3F3F4;
+  }
+  .normblock  {
+  font-style: strong;
+  color: white;
+  text-indent: 0;
+  margin: 0 1.2em 1.2em 1.2em;
+  text-align: center;
+  padding: 12px;
+  background-color: #cc6633;
+  }
+  .normblock2  {
+  font-style: strong;
+  margin: 0 1.2em 1.2em 1.2em;
+  text-align: center;
+  padding: 12px;
+  background-color: #F3F3F4;
+  }
+  .smallctr   {
+  font-size: 85%;
+  text-align: center;
+  }
+  .bigctr   {
+  font-size: 125%;
+  text-align: center;
+  }
+  .center {
+  text-align: center;
+  text-indent: 0;
+  }
+  .noind {
+  text-align: left;
+  text-indent: 0;
+  }
+  .right {
+  text-align: right;
+  text-indent: 0;
+  }
+  .left {
+  text-align: left;
+  text-indent: 0;
+  }
+  .Diary {
+  font-style: italic;
+  }
+  .scaps {
+  font-variant: small-caps;
+  }
+  .firstline {
+  text-indent: .25in;
+  }
+  .break 
+  {
+  page-break-before: always;
+  }
+  .fall
+  {
+  color:#e77751;
+  }
+  .myindent
+  {
+  text-indent: .3in;
+  }
+  .tab
+  {
+  text-align: left;
+  margin-left: 80px;
+  font-size: 85%;
+  }
+  .midget
+  {
+  font-size: 85%;
+  }
+  .texttop
+  {
+  text-indent: 0;
+  margin: 1.5em 0 0 0;
+  }
+  .clearit
+  {
+  clear: both;}
+  span.dropcap
+  {
+  font-size: 300%;
+  font-weight: bold;
+  height: 1.0em;
+  float: left;
+  margin: -0.2em 0.1em 0 0.1em;
+  }
+  .blockquote
+  {
+  font-style: strong;
+  text-indent: 0;
+  margin: 0 2em 1.2em 2em;
+  padding: 0;
+  text-align: justify;
+  }
+  .blockquoteital
+  {
+  font-style: italic;
+  text-indent: 0;
+  margin: 0 2em 1.2em 2em;
+  padding: 0;
+  text-align: justify;
+  }
+ .blockquotecenter
+  {
+  font-style: strong;
+  text-indent: 0;
+  margin: 0 2em 1.2em 2em;
+  padding: 0;
+  text-align: center;
+  }  
+  .hangingindent {
+  padding-left: 25px ;
+  text-indent: -25px ;
+  } 
+  sub 
+  {
+  vertical-align: sub;
+  font-size: 0.75em;
+  text-decoration: none;
+  }
+  sup
+  {
+  vertical-align: super;
+  font-size: 0.75em;
+  text-decoration: none;
+  }
+  .endnote
+  {
+    font-size: 85%;
+    padding-left: 25px ;
+    text-indent: -25px ;
+    text-align: left;
+  }
