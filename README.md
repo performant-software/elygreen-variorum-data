@@ -5,8 +5,8 @@
     transcriptionTypes={{
       transcription: 'Transcription'
     }}
-    iiifManifest='https://performant-software.github.io/elygreen-variorum-data/ElyGreenMS/iiif/manifest.json'
+    iiifManifest='https://performant-software.github.io/elygreen-variorum-data/ec/ElyGreenMS/iiif/manifest.json'
   />
 ```
 
-```editioncrafter process ElyGreenMS.xml . https://performant-software.github.io/elygreen-variorum-data```
+```editioncrafter process texts/ElyGreenMS.xml ec https://performant-software.github.io/elygreen-variorum-data/ec```
