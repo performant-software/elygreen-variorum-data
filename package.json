@@ -1,0 +1,11 @@
+{
+  "name": "elygreen-variorum-data",
+  "version": "1.0.0",
+  "description": "```   <EditionCrafter     threePanel     documentName='ElyGreenMS'     transcriptionTypes={{       transcription: 'Transcription'     }}     iiifManifest='https://performant-software.github.io/elygreen-variorum-data/ec/ElyGreenMS/iiif/manifest.json'   /> ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
