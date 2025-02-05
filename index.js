@@ -1,11 +1,9 @@
 const fs = require("fs");
 
-const docIDs = ['ElyGreenMS', 'eg-a', 'eg-b' ]
-const docFolioIDs = { 'ElyGreenMS': 'ElyGreenMS', 'eg-a': 'egA', 'eg-b': 'egB'}
 
 async function loadFolioLookups() {
     const folioLookups = {};
-    for( const doc of docIDs ) {
+    for( const doc of ['ElyGreenMS', 'eg-a', 'eg-b' ] ) {
         folioLookups[doc] = await generateFolioLookup(`https://faircopy.cloud/documents/${doc}/iiif/manifest.json`)
     }
     return folioLookups;
@@ -18,7 +16,13 @@ async function generateFolioLookup( manifestURL ) {
     const manifest = await response.json();
 
     manifest.items.forEach(item => {
-        pageNumber = item.label.none[0]
+        // URI format "https://faircopy.cloud/documents/ElyGreenMS/iiif/canvas/f000",
+        const canvasURI = item.id
+        const uriParts = canvasURI.split('/')
+        const folioID = uriParts[uriParts.length-1]
+        // Page number format "0001"
+        const pageNumber = parseInt(item.label.none[0])
+        folioLookup[pageNumber] = folioID
     });
 
     return folioLookup;
@@ -38,15 +42,11 @@ function loadAlignmentTable() {
     return alignmentTable
 }
 
-function getCollationURL( pageNumber, folioLookups ) {
-    // pad numbers to 4 digits
-//    return `${folioLookup[pageNumber]}`;
-
-/// egA_f002
-
-    const folioID = `${docID}_${pageID}`
-
-    return `https://digitalelygreen.org/explore/#/ec/${}/f/${}/f/${}/f`
+function getCollationURL(manuscriptPageNumber, egAPageNumber, egBPageNumber, folioLookups) {
+    const msFolioID = `ElyGreenMS_${folioLookups['ElyGreenMS'][manuscriptPageNumber]}`
+    const egAFolioID = `egA_${folioLookups['eg-a'][egAPageNumber]}`
+    const egBFolioID = `egB_${folioLookups['eg-b'][egBPageNumber]}`
+    return `https://digitalelygreen.org/explore/#/ec/${msFolioID}/f/${egAFolioID}/f/${egBFolioID}/f`
 }
 
 
@@ -60,10 +60,13 @@ async function run() {
     alignmentTableLines.push("| --- | --- | --- | --- |")
 
     // add page lines
-    for( const row in alignmentTable ) {
-        const manuscriptPageNumber = row[0]
-        const collationURL = getCollationURL(manuscriptPageNumber,folioLookups)
-        alignmentTableLines.push(`| ${manuscriptPageNumber} | ${row[1]} | ${row[2]} | [View](${collationURL}) |`)
+    for( let i=0; i < alignmentTable.length; i++ ) {
+        const row = alignmentTable[i]
+        const manuscriptPageNumber = parseInt(row[0])
+        const egAPageNumber = parseInt(row[1])
+        const egBPageNumber = parseInt(row[2])
+        const collationURL = getCollationURL(manuscriptPageNumber,egAPageNumber,egBPageNumber,folioLookups)
+        alignmentTableLines.push(`| ${manuscriptPageNumber} | ${egAPageNumber} | ${egBPageNumber} | [View](${collationURL}) |`)
     }
 
     const markdown = alignmentTableLines.join('\n')
