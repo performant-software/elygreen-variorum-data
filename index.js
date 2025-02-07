@@ -49,7 +49,7 @@ function getCollationURL(manuscriptPageNumber, egAPageNumber, egBPageNumber, fol
     const msFolioID = `ElyGreenMS_${folioLookups['ElyGreenMS'][manuscriptPageNumber]}`
     const egAFolioID = `egA_${folioLookups['eg-a'][egAPageNumber]}`
     const egBFolioID = `egB_${folioLookups['eg-b'][egBPageNumber]}`
-    return `/#/ec/${msFolioID}/f/${egAFolioID}/f/${egBFolioID}/f`
+    return `/explore#/ec/${msFolioID}/f/${egAFolioID}/f/${egBFolioID}/f`
 }
 
 
