@@ -1,3 +1,7 @@
+# Ely Green Variorum
+
+The table below aligns the various witnesses.
+
 | ElyGreenMS | egA (1966 ed) | egB (1970 ed) | Collation |
 | --- | --- | --- | --- |
 | 1 | 3 | 19 | [View](/#/ec/ElyGreenMS_f000/f/egA_f001/f/egB_f000/f) |

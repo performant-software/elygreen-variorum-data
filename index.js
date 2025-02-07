@@ -41,6 +41,10 @@ function loadAlignmentTable() {
     return alignmentTable
 }
 
+function loadIntroText() {
+    return fs.readFileSync("alignment-table/intro.md", "utf8");
+}
+
 function getCollationURL(manuscriptPageNumber, egAPageNumber, egBPageNumber, folioLookups) {
     const msFolioID = `ElyGreenMS_${folioLookups['ElyGreenMS'][manuscriptPageNumber]}`
     const egAFolioID = `egA_${folioLookups['eg-a'][egAPageNumber]}`
@@ -52,6 +56,7 @@ function getCollationURL(manuscriptPageNumber, egAPageNumber, egBPageNumber, fol
 async function run() {
     const folioLookups = await loadFolioLookups();
     const alignmentTable = loadAlignmentTable();
+    const introText = loadIntroText();
 
     // add header lines
     const alignmentTableLines = []
@@ -68,7 +73,7 @@ async function run() {
         alignmentTableLines.push(`| ${manuscriptPageNumber} | ${egAPageNumber} | ${egBPageNumber} | [View](${collationURL}) |`)
     }
 
-    const markdown = alignmentTableLines.join('\n')
+    const markdown = introText + '\n\n' + alignmentTableLines.join('\n')
     fs.writeFileSync("alignment-table/alignment.md", markdown);
 }
 
