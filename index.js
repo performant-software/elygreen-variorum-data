@@ -1,6 +1,5 @@
 const fs = require("fs");
 
-
 async function loadFolioLookups() {
     const folioLookups = {};
     for( const doc of ['ElyGreenMS', 'eg-a', 'eg-b' ] ) {
@@ -46,7 +45,7 @@ function getCollationURL(manuscriptPageNumber, egAPageNumber, egBPageNumber, fol
     const msFolioID = `ElyGreenMS_${folioLookups['ElyGreenMS'][manuscriptPageNumber]}`
     const egAFolioID = `egA_${folioLookups['eg-a'][egAPageNumber]}`
     const egBFolioID = `egB_${folioLookups['eg-b'][egBPageNumber]}`
-    return `https://digitalelygreen.org/explore/#/ec/${msFolioID}/f/${egAFolioID}/f/${egBFolioID}/f`
+    return `/#/ec/${msFolioID}/f/${egAFolioID}/f/${egBFolioID}/f`
 }
 
 
